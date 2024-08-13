@@ -1,1 +1,1 @@
-# P-gina-EstudIA
+# Pagina EstudIA - Página promocional
