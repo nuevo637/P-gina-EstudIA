@@ -4,6 +4,7 @@ import { Acerca } from './components/acerca/Acerca';
 import { Inicio } from './components/inicio/Inicio';
 import { Beneficiarios } from './components/beneficiarios/Beneficiarios';
 import { Footer } from './components/footer/Footer';
+import { Nav } from './components/nav/Nav';
 
 function App() {
   return (
