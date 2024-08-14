@@ -4,18 +4,19 @@
     height: auto;
   }
   
-  .nav-link {
+.nav-link {
     color: white !important; 
-    background-color: #a67c52 !important; /* Un marrón claro para los botones */
+    background-color: #6FA3EF !important; /* Naranja vivo */
     font-weight: bold;
-    border-radius: 4px;
-    padding: 8px 16px; /* Añade un poco de relleno para un mejor aspecto */
-    transition: background-color 0.3s ease; /* Añade una transición suave al hover */
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
 }
 
 .nav-link:hover {
-    background-color: #8c6b48 !important; /* Un marrón ligeramente más oscuro al hacer hover */
+    background-color: #90CAF9 !important; /* Naranja más oscuro al hacer hover */
 }
+
 
   .navbar-brand {
     display: flex;

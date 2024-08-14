@@ -4,7 +4,7 @@ import logo from '../../assets/images/Logo_estudIA.png';
 
 export const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#a0724e' }}>
+    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#6FA3EF' }}>
       <div className="container-fluid">
         <a className="navbar-brand d-flex align-items-center" href="/">
           <img src={logo} alt="Logo" className="logo" />
