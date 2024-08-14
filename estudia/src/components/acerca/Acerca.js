@@ -100,8 +100,12 @@ export const Acerca = () => {
               <p className='text-center mb-0'>Matemáticas</p>
             </div>
           </div>
-          
         </div>
+
+        <p className="text-center pt-5 pb-5" style={{ maxWidth: '500px', margin: '0 auto' }}>
+          Los alumnos podrán preguntar a un personaje histórico acerca de sus hazañas, a un profesor de matemática sobre ejemplos de un tipo de problemas, a un animal en peligro de extinción acerca de sus características y entre muchas cosas más.
+        </p>
+
       </div>
     </section>
   );
