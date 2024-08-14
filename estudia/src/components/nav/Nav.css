@@ -5,16 +5,18 @@
   }
   
   .nav-link {
-    color: black !important; 
-    background-color: #e6c54a !important; /* Color amarillo para los botones */
+    color: white !important; 
+    background-color: #a67c52 !important; /* Un marrón claro para los botones */
     font-weight: bold;
     border-radius: 4px;
-  }
-  
-  .nav-link:hover {
-    background-color: #d4b13e !important; /* Cambia el color al hacer hover */
-  }
-  
+    padding: 8px 16px; /* Añade un poco de relleno para un mejor aspecto */
+    transition: background-color 0.3s ease; /* Añade una transición suave al hover */
+}
+
+.nav-link:hover {
+    background-color: #8c6b48 !important; /* Un marrón ligeramente más oscuro al hacer hover */
+}
+
   .navbar-brand {
     display: flex;
     align-items: center;
