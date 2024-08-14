@@ -10,9 +10,15 @@ function App() {
   return (
     <div className="App">
       <Nav></Nav>
-      <Inicio></Inicio>
-      <Acerca></Acerca>  
-      <Beneficiarios></Beneficiarios>
+      <section id="inicio">
+        <Inicio></Inicio>
+      </section>
+      <section id="acerca">
+        <Acerca></Acerca>  
+      </section>
+      <section id="beneficiarios">
+        <Beneficiarios></Beneficiarios>
+      </section>
       <Footer></Footer>
     </div>
   );
