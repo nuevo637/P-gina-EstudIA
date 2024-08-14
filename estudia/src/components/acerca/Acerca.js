@@ -31,7 +31,7 @@ export const Acerca = () => {
         Los estudiantes podrán interactuar con IAs especializadas en los siguientes temas:
         </p>
 
-        <div className='container-fluid' style={{ maxWidth: '100%', minHeight: '800px'  }}>
+        <div className='container-fluid' style={{ maxWidth: '900px' }}>
           <div className='container'>
             <div className='row' style={{ height: '200px' }}>
               <div className='col-12 col-md-6 d-flex align-items-center justify-content-center' 
