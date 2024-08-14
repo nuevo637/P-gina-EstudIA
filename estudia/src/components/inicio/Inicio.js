@@ -18,7 +18,7 @@ export const Inicio = () => {
         {/* Columna Derecha Superior */}
         <div 
           className="col-md-6 d-flex flex-column justify-content-center align-items-start p-4 rounded" 
-          style={{ backgroundColor: '#FAF4D2' }}
+          style={{ backgroundColor: '#D2F3FA' }}
         >
           <h1 className="display-4">¡Bienvenidos a <strong>estudIA</strong>!</h1>
           <p className="lead">
