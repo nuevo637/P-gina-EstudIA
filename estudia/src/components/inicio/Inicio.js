@@ -1,4 +1,6 @@
 import React from 'react'
+import chicosImage from '../../assets/images/ilustracion1.png';
+import logo from '../../assets/images/Logo_estudIA.png';
 
 export const Inicio = () => {
   return (
@@ -7,7 +9,7 @@ export const Inicio = () => {
         {/* Columna Izquierda Superior */}
         <div className="col-md-6 d-flex justify-content-center align-items-center">
           <img
-            src="/images/ilustracion1.png"
+            src={chicosImage} 
             alt="Niños con computadora"
             className="img-fluid"
           />
@@ -29,7 +31,7 @@ export const Inicio = () => {
         {/* Columna Izquierda Inferior */}
         <div className="col-md-6 d-flex justify-content-center align-items-center">
           <img
-            src="/images/Logo_estudIA.png"
+            src={logo} 
             alt="Icono didáctico"
             className="img-fluid"
           />
