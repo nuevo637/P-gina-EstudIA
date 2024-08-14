@@ -1,0 +1,22 @@
+/* src/components/nav/Nav.css */
+.logo {
+    width: 60px; 
+    height: auto;
+  }
+  
+  .nav-link {
+    color: black !important; 
+    background-color: #e6c54a !important; /* Color amarillo para los botones */
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .nav-link:hover {
+    background-color: #d4b13e !important; /* Cambia el color al hacer hover */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
