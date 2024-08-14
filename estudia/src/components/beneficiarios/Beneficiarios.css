@@ -1,0 +1,52 @@
+.beneficiarios-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .beneficiarios-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .beneficiarios-divider {
+    width: 50px;
+    height: 5px;
+    background-color: #FFC107; /* Color amarillo */
+    border: none;
+    margin: 10px auto;
+  }
+  
+  .beneficiarios-question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .beneficiarios-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .beneficiarios-description {
+    flex: 1;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 10px;
+  }
+  
+  .beneficiarios-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rotating-globe {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    animation: spinY 10s linear infinite;
+  }
+  
+  @keyframes spinY {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+  }
+  
