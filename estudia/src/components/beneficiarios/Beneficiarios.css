@@ -10,6 +10,7 @@
     font-size: 2.5em;
     font-weight: bold;
     color: #333;
+    margin-top: 30px;
 }
 
 .beneficiarios-divider {
@@ -37,6 +38,7 @@
     color: #666;
     max-width: 80%; /* Ajusta el ancho del texto */
     margin: 0 auto; /* Centra el texto */
+    margin-bottom: 40px;
 }
 
 .beneficiarios-images-grid {

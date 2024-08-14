@@ -5,7 +5,15 @@ export const Beneficiarios = () => {
   return (
     <section className="beneficiarios-container">
   <h2 className="beneficiarios-title">BENEFICIARIOS</h2>
-  <hr className="beneficiarios-divider" />
+  <hr style={{
+          border: '0',
+          borderRadius: '10px',
+          height: '10px',
+          backgroundColor: '#FFBB00',
+          width: '50px',
+          margin: '10px auto',
+          opacity: '1' 
+        }} />
   <p className="beneficiarios-question">
     ¿A qué grupo impacta nuestra idea innovadora y de qué manera lo hace?
   </p>
