@@ -31,73 +31,75 @@ export const Acerca = () => {
         Los estudiantes podrán interactuar con IAs especializadas en los siguientes temas:
         </p>
 
-        <div className='container' style={{maxWidth: '700px'}}>
-          <div className='row' style={{ height: '200px' }}>
-            <div className='col d-flex align-items-center justify-content-center' 
-              style={{
-                backgroundImage: `url(${img1})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '200px',
-              }}
-            > 
-              <p className='text-center mb-0 fs-4 text-white'>Matemáticas</p>
+        <div className='container-fluid' style={{ maxWidth: '100%', minHeight: '800px'  }}>
+          <div className='container'>
+            <div className='row' style={{ height: '200px' }}>
+              <div className='col-12 col-md-6 d-flex align-items-center justify-content-center' 
+                style={{
+                  backgroundImage: `url(${img1})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  height: '200px',
+                }}
+              > 
+                <p className='text-center mb-0 fs-4 text-white'>Matemáticas</p>
+              </div>
+              <div className='col-12 col-md-6 d-flex align-items-center justify-content-center' 
+                style={{
+                  backgroundImage: `url(${img2})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  height: '200px'
+                }}
+              > 
+                <p className='text-center mb-0 fs-4 text-white px-3'>Ciencias y Tecnología</p>
+              </div>
             </div>
-            <div className='col d-flex align-items-center justify-content-center' 
-              style={{
-                backgroundImage: `url(${img2})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '200px'
-              }}
-            > 
-              <p className='text-center mb-0 fs-4 text-white mx-5 px-5'>Ciencias y Tecnología</p>
-            </div>
-          </div>
 
-          <div className='row' style={{ height: '200px' }}>
-            <div className='col d-flex align-items-center justify-content-center' 
-              style={{
-                backgroundImage: `url(${img3})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '200px'
-              }}
-            > 
-              <p className='text-center mb-0 fs-4 text-white'>Historia</p>
+            <div className='row' style={{ height: '200px' }}>
+              <div className='col-12 col-md-6 d-flex align-items-center justify-content-center' 
+                style={{
+                  backgroundImage: `url(${img3})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  height: '200px'
+                }}
+              > 
+                <p className='text-center mb-0 fs-4 text-white'>Historia</p>
+              </div>
+              <div className='col-12 col-md-6 d-flex align-items-center justify-content-center' 
+                style={{
+                  backgroundImage: `url(${img4})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  height: '200px'
+                }}
+              > 
+                <p className='text-center mb-0 fs-4 text-white'>Ingles</p>
+              </div>
             </div>
-            <div className='col d-flex align-items-center justify-content-center' 
-              style={{
-                backgroundImage: `url(${img4})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '200px'
-              }}
-            > 
-              <p className='text-center mb-0 fs-4 text-white'>Ingles</p>
-            </div>
-          </div>
 
-          <div className='row' style={{ height: '200px' }}>
-          <div className='col d-flex align-items-center justify-content-center' 
-              style={{
-                backgroundImage: `url(${img5})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '200px'
-              }}
-            > 
-              <p className='text-center mb-0 fs-4 text-white'>Comunicación</p>
-            </div>
-            <div className='col d-flex align-items-center justify-content-center' 
-              style={{
-                backgroundImage: `url(${img6})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '200px'
-              }}
-            > 
-              <p className='text-center mb-0 fs-4 text-white'>Arte</p>
+            <div className='row' style={{ height: '200px' }}>
+              <div className='col-12 col-md-6 d-flex align-items-center justify-content-center' 
+                style={{
+                  backgroundImage: `url(${img5})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  height: '200px'
+                }}
+              > 
+                <p className='text-center mb-0 fs-4 text-white'>Comunicación</p>
+              </div>
+              <div className='col-12 col-md-6 d-flex align-items-center justify-content-center' 
+                style={{
+                  backgroundImage: `url(${img6})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  height: '200px'
+                }}
+              > 
+                <p className='text-center mb-0 fs-4 text-white'>Arte</p>
+              </div>
             </div>
           </div>
         </div>
