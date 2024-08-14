@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #8B5E3C; /* Marrón suave */
+    color: #fff;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo-img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .footer-logo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .footer-message {
+    text-align: right; /* Alinea la frase a la derecha */
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  
