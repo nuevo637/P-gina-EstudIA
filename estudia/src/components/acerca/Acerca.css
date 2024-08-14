@@ -1,17 +1,26 @@
-.col {
+.hover-col {
   transition: transform 0.3s ease;
+  overflow: hidden; /* Evitar desbordamiento del contenido */
+  margin-bottom: 1rem; /* Espacio en la parte inferior */
 }
 
-.col:hover {
+.hover-col:hover {
   transform: scale(1.05);
 }
 
-.col p {
+.hover-col p {
   transition: font-size 0.3s ease;
-  font-size: 1rem; 
-  padding: 0 10px; 
+  font-size: 1rem; /* Tamaño de fuente inicial */
+  padding: 0 10px; /* Espacio alrededor del texto */
 }
 
-.col:hover p {
-  font-size: 1.25rem;
+.hover-col:hover p {
+  font-size: 1.25rem; /* Tamaño de fuente al hacer hover */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .hover-col {
+    margin-bottom: 1.5rem; /* Mayor margen en pantallas pequeñas */
+  }
 }
