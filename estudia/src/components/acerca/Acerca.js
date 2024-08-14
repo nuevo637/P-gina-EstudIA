@@ -5,6 +5,7 @@ import img3 from '../../assets/images/img3.png';
 import img4 from '../../assets/images/img4.png';
 import img5 from '../../assets/images/img5.png';
 import img6 from '../../assets/images/img6.png';
+import './Acerca.css'; 
 
 export const Acerca = () => {
   return (
@@ -37,7 +38,7 @@ export const Acerca = () => {
                 backgroundImage: `url(${img1})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                height: '200px'
+                height: '200px',
               }}
             > 
               <p className='text-center mb-0 fs-4 text-white'>Matemáticas</p>

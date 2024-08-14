@@ -1,0 +1,17 @@
+.col {
+  transition: transform 0.3s ease;
+}
+
+.col:hover {
+  transform: scale(1.05);
+}
+
+.col p {
+  transition: font-size 0.3s ease;
+  font-size: 1rem; 
+  padding: 0 10px; 
+}
+
+.col:hover p {
+  font-size: 1.25rem;
+}

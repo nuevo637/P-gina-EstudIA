@@ -8,10 +8,10 @@ export const Nav = () => {
       <div className="container-fluid">
         <a className="navbar-brand d-flex align-items-center" href="/">
           <img src={logo} alt="Logo" className="logo" />
-          <span className="ms-2 text-white fw-bold">estudIA</span>
+          <span className="ms-2 text-white fw-bold fs-4">estudIA</span>
         </a>
         <div className="collapse navbar-collapse justify-content-end">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav fs-4">
             <li className="nav-item">
               <a href="#inicio" className="nav-link text-dark btn btn-warning mx-2">Inicio</a>
             </li>
